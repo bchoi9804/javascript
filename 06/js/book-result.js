@@ -13,5 +13,5 @@
 
 		document.write("<h1>책 제목으로 살펴보기</h1>");
 		for(var i=0; i<bookList.length; i++) {
-			document.write("<p>" + bookList[i].title + "</p>");
+			document.write("<p>" + bookList[i].price + "</p>");
 		}
